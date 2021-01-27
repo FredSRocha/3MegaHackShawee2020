@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png?v=bORgE05Pwr">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png?v=bORgE05Pwr">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-chrome-192x192.png?v=bORgE05Pwr">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png?v=bORgE05Pwr">
+    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg?v=bORgE05Pwr" color="#5bbad5">
+    <link rel="shortcut icon" href="../favicon.ico?v=bORgE05Pwr">
+    <meta name="apple-mobile-web-app-title" content="Track Money">
+    <meta name="application-name" content="Track Money">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="../img/favicon/mstile-144x144.png?v=bORgE05Pwr">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link href="../img/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="../img/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <title>TrackMoney | Bot de Negociações</title>
+    <meta name="description" content="Monitore o desempenho financeiro dos seus canais online e gerencie solicitações, recebimentos, negociação e cobrança de recebíveis.">
+    <meta name="author" content="Shawee by Time 40">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page styles - make your own! -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Peekobot custom properties (CSS variable) - set these! -->
+    <style>
+        :root {
+            --peekobot-height: 80vh;
+            --peekobot-avatar: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3AAAANwBohRA4wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAARgSURBVFiF7ZVbbBRVHMa/78zubNuAFCIPbAsGsTSKhjbdSyMm0ELQREPwkoi3NvpgIrx4ISox8iARL9EHjcaEhJrYByGxXASUB9hFMNDZbak1rSBCEMpuDVAEbBd2pnP+PsDqdrc1UwIaE76nk//t+50zc2aAm/qPRQDwR6y51FhKMngjTITSL8BmJxHtLgIIhA4sMfzGR48umnwi6+iOmPXHwYtDrnM9ASgSFHAFiNfsRHTziKQZtnra9pw52nNy8JvraVqoQMSabYatnwvjimBF9czSWRS230iAbCJ6RIBJmNNr5sd9uYUIdG4dTMVeBbBciOOGK0+fmr4w5cVkWnr3bRSuB1AtxGf9wca1+XkCGuW/BwDYuZgqHBJMfVcL4EmKrlMaX2vFNV53qTQ/FHKb4Q5HKfJYZV8sWlhj2v6TZsT6AjVd5aMCUNwqIQ+kKhcNiOK3AKq9AghRRVGb+mYsTlOwV1jca/vcWRA5ZPrs/Zj3/cQiACHPUeTxYCp2DiL7hZL2CgCiD3C7g6nYOSGbKDhbVBPIZuxk/TugtJm2udpXmE9XNOwCMMWzaX5vsPEhr7X2sPmx6XO6igDGUmVfLOoamDtaznDRfWp6o+V1FgCgq/YswokyzwDawAsEboVIz4gEebc2cC+AcQGYUetOaJ7wDEDN7ULdnA42rgIpAAARTuuPbwewbTzmWBD3YZDvi8KnRS/hWEpVNnxFwflgOrYpmN69eFo6dn8wHd+sNAb6g41tXueYmbIHAkNlu0BccBKR9Z4BrkAsfAZQGyB8joJnAX6ZqmxsGs8MaDQLOIVgK0Dx/AhySlc0bASwcbx9OdkTMk+Yg2UtIAEAihStNTShS651qDcJeeXTP5wfVa6wc8POAUvIRw4fPjPxRtmb4eTDGuzFnoYRAD6l9IoPWn7b0tJ25pKhuKVm2Q+HWt+7Y6pBWXPXjIlXr5woM5x8A5B7rsVcIJMhUqEUlgIAFPyE2ADgy1r1v6Cuo2bgojuXwOzBjF5NoFoLdwDowYJ4iZlJtEKgFdS6awFwqc/b2uhGIuRcJaoSbZwAcr/jzpDjAB2ldR2nAfm7s6arPDBkb9XgQScZfgWgLhxeErFmusL5inI2W5bZWXjEhfKHkrWA9mU7Q8euHMYYSvZemmL6nb0gtjrJyEujmZvhxFNaEAN0rQieN4fK2lHXMWlM95quclJ/TnBVLjTqNfzp2KWjy9869iIEr2eT9RtGHTYnPgGQd33DTjTTdV/6KtBaUw2vtIE3R9QuiJeYg6UPgvbbJNZlE5G/vpxFAFnbndq06vgQgGa7oz4+1mb8pROqBPpIzhwARLtbqdQ+M2ytyK+VITgg94mwyU6GE/m5EQBGIHvZdnwXQL3Utup/HMscAJySy7+aWXM2ou23wKq/CADKUPM08ImTiL78T735otfC0RQIt68UcJmALYC+neASnzbmZzpD/f8KAAD4Qsl5irKYok9nDbTmTuOm/jf6E4RIzcH6PgJhAAAAAElFTkSuQmCC");
+        }
+    </style>
+    <!-- Peekobot styles -->
+    <link rel="stylesheet" href="peekobot.css">
+    
+    <!-- These provide in-browser transpilation of ES6 JS code to ES5 to support IE11 -->
+    <script src="https://unpkg.com/@babel/polyfill@7.6.0/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="xl reset-margin large-margin">TM Bot<img width="64px" src="data:image/png;base64,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" alt="TrackMoney Bot"></h1>
+        <p>
+            O Track Money Bot é um bate-papo automatizado que permite o controle dos débitos por parte dos devedores. Útil no controle das negociações de pagamento, bem como na gestão de cobrança.
+        </p>
+        <p>
+            Esta funcionalidade integra a gestão de recebíveis nas seguinte fase:
+        </p>
+        <ul>
+            <li><b>Régua de cobrança:</b> modalidade online.</li>
+        </ul>
+        <p>Saiba mais em: <a href="../index.php">TrackMoney</a></p>
+    </header>
+
+    <main id="main">
+        <div id="peekobot-container">
+            <div id="peekobot-inner">
+                <div id="peekobot"></div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2020 TrackMoney</p>
+        </footer>
+    </main>
+
+    <script src="conversation.js"></script>
+    <script type="text/babel" data-presets="es2015,es2016,es2017" src="peekobot.js"></script>
+
+</body>
+
+</html>
